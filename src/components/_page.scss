@@ -1,0 +1,19 @@
+.form {
+    outline: solid 2px purple;
+    justify-content: center;
+    text-align: center;
+    background-color: $footer-bkg-color;
+    font-size: 24px;
+}
+
+.info {
+    outline: solid 2px red;
+    font-size: 20px;
+}
+
+.history {
+    outline: solid 2px yellow;
+background-color: darkblue;
+color: $secondary-text-color;
+
+}

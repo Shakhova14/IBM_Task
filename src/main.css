@@ -1,0 +1,49 @@
+.container {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  outline: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+  display: block;
+  outline: solid 1px green;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.form {
+  outline: solid 2px purple;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: lightblue;
+  font-size: 24px;
+}
+
+.info {
+  outline: solid 2px red;
+  font-size: 20px;
+}
+
+.history {
+  outline: solid 2px yellow;
+  background-color: darkblue;
+  color: #ffffff;
+}
+/*# sourceMappingURL=main.css.map */
